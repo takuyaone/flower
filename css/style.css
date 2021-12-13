@@ -1,0 +1,321 @@
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+  line-height:1.6;
+  letter-spacing:0.05rem;
+}
+.container{
+  margin:0 auto;
+}
+h2{
+  font-size:24px;
+}
+
+/* header */
+header{
+  background-image:url('../img/bg_header_pink.jpg') ;
+  background-size:cover;
+  background-position: 60%;
+  height:100vh;
+  min-height:660px;
+  text-align:center;
+  position:relative;
+  color:white;
+}
+header img{
+  width:120px;
+  padding-top:220px;
+}
+header h2{
+  font-weight:normal;
+}
+header .links p{
+  font-size:16px;
+  margin-top:360px;
+}
+header .links img{
+  display:none;
+}
+
+/* service */
+.service{
+  color:white;
+}
+.service .item{
+  padding:30px 30px 0;
+}
+.service .item h2{
+  font-weight:normal;
+}
+.service .item p{
+  margin-top:10px;
+  font-size:14px;
+}
+.service .item1{
+  background-image:url('../img/bg_service01.jpg');
+  background-size:cover;
+  background-position:center;
+  height:60vh;
+}
+.service .item2{
+  background-image:url('../img/bg_service02.jpg');
+  background-size:cover;
+  background-position:center;
+  height:60vh;
+}
+.service .item3{
+  background-image:url('../img/bg_service03.jpg');
+  background-size:cover;
+  background-position:center;
+  height:60vh;
+}
+
+/* price */
+.price{
+  padding:30px 20px;
+  text-align:center;
+  color:#3F434A;
+}
+.content{
+  background-image:url('../img/price_bouquetimg.png');
+  background-size:cover;
+  margin:40px auto 20px;
+  width:200px;
+  height:200px;
+  position:relative;
+}
+.trial{
+  background-image:url('../img/price_trial.png');
+  background-size:cover;
+  width:125px;
+  height:45px;
+  position:absolute;
+  top:-30px;
+  left:35px;
+}
+.bouquet-price{
+  font-weight:bold;
+}
+.bouquet-price span{
+  font-size:18px;
+}
+.addition{
+  margin-top:30px;
+  font-size:12px;
+}
+.frequery{
+  margin-top:100px;
+}
+.frequery .img{
+  background-image:url('../img/img_frequency.png');
+  background-size:cover;
+  width:180px;
+  height:160px;
+  margin:20px auto 0;
+}
+
+/* flower */
+.flower{
+  margin-top:50px;
+  padding:20px;
+  text-align:center;
+  color:#3F434A;
+  background-color:#EAD5DC;
+}
+.flower-img{
+  background-image:url('../img/bg_flower.jpg');
+  background-size:90%;
+  background-repeat:no-repeat;
+  background-position:center;
+  height:30vh;
+}
+.flower-detail h4{
+  margin-top:20px;
+}
+.flower-detail p{
+  text-align:left;
+  padding:0 20px;
+  margin-top:10px;
+  font-size:18px;
+}
+
+/* vase */
+.vase{
+  padding:50px 0;
+  text-align:center;
+  color:#3F434A;
+  background-color:#E7E3DF;
+}
+.vase .discount{
+  background-color:white;
+  display:inline-block;
+  margin-top:20px;
+  font-weight:bold;
+}
+.vase .vase-img{
+  background-image:url('../img/bg_vase.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+  height:50vh;
+}
+.vase-content{
+  padding:0 20px;
+}
+.vase .comment{
+  margin-top:20px;
+  font-size:15px;
+  text-align:left;
+}
+.vase .vase-item{
+  display:flex;
+  justify-content:center;
+}
+.vase .bell{
+  background-image:url('../img/vase_bell.jpg');
+}
+.vase .moon{
+  background-image:url('../img/vase_candle.jpg');
+}
+.vase .candle{
+  background-image:url('../img/vase_moon.jpg');
+}
+.vase .item{
+  background-size:80%;
+  background-position:center;
+  background-repeat:no-repeat;
+  width:30%;
+  height:15vh;
+  margin:20px 0;
+  position:relative;
+}
+.vase .item p{
+  position:absolute;
+  text-align:center;
+  bottom:14px;
+  left:0;
+  right:0;
+}
+.vase-price{
+  display:flex;
+  height:10vh;
+}
+.vase-price .order{
+  width:80px;
+  height:45px;
+  border:2px solid #000;
+  font-size:14px;
+  font-weight:bold;
+  margin-top:4px;
+}
+.vase-price .order-price{
+  text-align:left;
+  font-size:18px;
+  margin-left:10px;
+}
+.vase-price .order-price span{
+  font-size:14px;
+}
+.vase p{
+  text-align:left;
+  font-size:12px;
+}
+
+/* service2 */
+.service2{
+  padding:100px 0;
+  text-align:center;
+  color:#3F434A;
+}
+.service2-content{
+  margin:30px 0;
+}
+.service2-item{
+  margin-top:30px;
+}
+.service2-item .item1{
+  background-image:url('../img/icon01.png');
+}
+.service2-item .item2{
+  background-image:url('../img/icon02.png');
+}
+.service2-item .item3{
+  background-image:url('../img/icon03.png');
+}
+.service2-img{
+  background-size:20%;
+  background-repeat:no-repeat;
+  background-position:center;
+  height:10vh;
+}
+
+/* download */
+.download{
+  background-color:#EFDFC5;
+  color:#3F434A;
+  text-align:center;
+}
+.download img{
+  width:120px;
+  padding-top:50px;
+}
+.download-img{
+  background-image:url('../img/bg_download2.jpg');
+  background-size:100%;
+  background-repeat:no-repeat;
+  background-position:center;
+  height:36vh;
+}
+
+/* footer */
+footer{
+  background-color:#3F434A;
+  padding:30px;
+}
+footer .container{
+  display:flex;
+  justify-content:space-between;
+}
+footer li{
+  color:white;
+  list-style:none;
+  font-size:14px;
+  margin-bottom:10px;
+}
+.icons{
+  display:flex;
+}
+.sns{
+  width:70px;
+  height:70px;
+}
+footer p{
+  color:#888A8F;
+  font-size:13px;
+  text-align:center;
+  margin-top:50px;
+}
+
+/* scroll-links */
+.scroll-links{
+  background-color:#FAF9F9;
+  text-align:center;
+  padding:20px 0;
+  position:fixed;
+  bottom:0;
+  width:100%;
+}
+.scroll-links img{
+  display:inline-block;
+  width:160px;
+  margin-left:10px;
+}
+
+
+
+
+
+
+
+
+
+

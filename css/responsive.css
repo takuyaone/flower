@@ -1,0 +1,151 @@
+@media screen and (min-width:767px){
+  /* header */
+  header{
+    background-image:url('../img/bg_header_pink.jpg');
+    background-position:center bottom;
+    background-repeat:no-repeat;
+  }
+  header img{
+    padding-top:220px;
+  }
+  header .links img{
+    display:inline-block;
+    width:200px;
+    margin-top:200px;
+    margin-left:10px;
+  }
+  header .links p{
+    margin-top:20px;
+  }
+
+  /* service */
+  .service .container{
+    display:flex;
+  }
+  .service .item{
+    width:33%;
+    height:70vh;
+    padding:60px 50px;
+  }
+
+  /* price */
+  .price .container{
+    display:flex;
+    justify-content:space-around;
+  }
+
+  /* flower */
+  .flower-content{
+    flex-flow:column wrap;
+    display:flex;
+    height:70vh;
+  }
+  .flower-content h2{
+    order:2;
+    width:50%;
+    margin-top:80px;
+  }
+  .flower-img{
+    order:1;
+    width:50%;
+    background-size:contain;
+    background-position:center;
+    background-repeat:no-repeat;
+    height:70vh;
+  }
+  .flower-detail{
+    order:3;
+    width:50%;
+    margin-top:20px;
+  }
+  .flower-detail p{
+    padding:0 50px;
+  }
+
+  /* vase */
+  .vase-ttl{
+    width:50%;
+  }
+  .vase-content{
+    width:400px;
+    margin:10px auto;
+  }
+  .vase .item{
+  background-size:70%;
+  background-position:center;
+  background-repeat:no-repeat;
+  width:100%;
+  height:15vh;
+  margin:20px 0;
+  }
+
+  .vase-field{
+    flex-flow:column wrap;
+    display:flex;
+    height:70vh;
+  }
+  .vase .vase-ttl{
+    order:1;
+  }
+  .vase .vase-img{
+    order:3;
+    width:50%;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    height:70vh;
+  }
+  .vase .vase-content{
+    order:2;
+  }
+
+  /* service2 */
+  .service2-content{
+    display:flex;
+    justify-content:space-around;
+  }
+  .service2-img{
+    background-size:40%;
+    background-repeat:no-repeat;
+    background-position:center;
+    height:10vh;
+  }
+
+  /* download */
+  .download-content{
+    display:flex;
+    flex-wrap:wrap;
+    padding-top:50px;
+  }
+  .download-ttl{
+    order:2;
+    margin-left:-150px;
+  }
+  .download-img{
+    order:1;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    height:50vh;
+    width:50%;
+    margin-left:200px;
+  }
+
+  /* footer */
+  footer ul{
+    display:flex;
+    margin-top:30px;
+  }
+  footer li{
+    margin-right:40px;
+  }
+  footer p{
+    margin-top:150px;
+  }
+
+  /* scroll-link */
+  .scroll-links{
+    display:none;
+  }
+}
+
